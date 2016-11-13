@@ -1,0 +1,114 @@
+body{
+	background: #f8f8f8;
+	background:url('/images/pattern.png');
+	font-family: 'montserrat', arial;
+}
+
+#container {
+
+	height: 960px;
+	margin: auto;
+	background-image: url('/images/tiles-03.png');
+	background-position: 0% 75%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+
+#show {
+	width: 940px;
+	height: 960px;
+	margin: auto;
+	background-image: url('/images/tiles-02.png');
+	background-position: 0% 75%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+
+	color: #fd395e;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-size: 56.45pt;
+	line-height: 27.7pt;
+}
+
+#show h1 {
+	margin-top: -2%;
+}
+
+h2 {
+
+	color: #fd395e;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 36pt;
+}
+
+.emph {
+	color: #555555;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 25pt;
+	font-family: 'open sans', sans-serif;
+	font-style: italic;
+}
+
+.more {
+	color: #555555;
+	text-transform: capitalize;
+	text-align: center;
+	font-size: 15pt;
+	font-family: 'open sans', sans-serif;
+}
+
+a {
+	color: #fd395e;
+}
+
+.slide {
+	float: left;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+
+#wordform {
+	text-align: center;
+}
+
+#word {
+	height: 90px;
+	width: 650px;
+	font-size: 25pt;
+	text-align: center;
+}
+
+.btn {
+	background-color: #fd395e;
+	height: 90px;
+	width: 690px;
+	font-family: 'montserrat', arial;
+	font-size: 34.19pt;
+	color: #ffffff;
+	margin-top: 50px;
+	border: none;
+	text-transform: capitalize;
+}
+
+ul, li {
+	font-family: 'open sans', sans-serif;
+	font-size: 4rem;
+	list-style-type: none;
+	color: #fd395e;
+	text-align: center;
+}
+
+.error {
+	text-align: center;
+	color: red;
+	border: 5px solid red;
+	font-size: 25pt;
+	font-family: 'open sans', sans-serif;
+}

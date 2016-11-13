@@ -1,0 +1,34 @@
+<h1>Words</h1>
+<table class="table table-striped">
+  <thead>
+    <th>Text</th>
+    <th>Letters</th>
+    <th>URL</th>
+  </thead>
+  <tbody>
+    <% @words.each do |word| %>
+    <tr>
+      <td><%= "#{word.text}" %></td>
+      <td><%= "#{word.letters}" %></td>
+      <td>
+        <a href="<%= "/words/#{word.id}" %>">
+          <%= "#{word.text}" %>
+        </a>
+      </td>
+      <td>
+        <a href="<%= "/words/#{word.id}/edit" %>">
+          Edit
+        </a>
+      </td>
+      <td>
+        <form action="<%= "/words/#{word.id}" %>" method="post">
+          <input type="hidden" name="_method" value="delete"/>
+          <button class="btn btn-danger" type="submit">
+          Delete
+          </button>
+        </form>
+      </td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>

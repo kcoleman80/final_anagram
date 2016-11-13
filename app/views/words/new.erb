@@ -1,0 +1,9 @@
+<div class="title"><h1>Please Enter Your Word</h1></div>
+
+<div class="search">
+  <%= erb :"/words/_form" %>
+</div>
+
+<% if @error.present? %>
+  <p class='error'><%= "#{@error}" %></p>
+<% end %>
